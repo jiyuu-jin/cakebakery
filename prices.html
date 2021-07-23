@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+      
+      body{
+        margin: 0;
+      }
+      
+      #heading{
+        color: hotpink;
+        font-size: 60px;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+      }
+      
+      #img-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+      }
+      
+      #img-gallery > img{
+        height: 250px;
+        background-color: white;
+        border: solid 1px black;
+        padding: 20px;
+        margin: 15px;
+      }
+      
+      .nav-wrapper {
+        padding-left: 150px;
+        padding-right: 150px;
+      }
+    </style>
+  </head>
+  
+  
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">The Cake Bakery</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Cakes</a></li>
+          <li><a href="badges.html">Prices</a></li>
+          <li><a href="collapsible.html">Catering</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1 id="heading">Welcome to the Cake Bakery!</h1>
+    
+    
+     <table>
+        <thead>
+          <tr>
+              <th>Item Name</th>
+              <th>Item Price</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Basic Cake</td>
+            <td>$25.00</td>
+          </tr>
+          <tr>
+            <td>2 Tier Cake</td>
+            <td>$40.00</td>
+          </tr>
+          <tr>
+            <td>3 Tier Cake</td>
+            <td>$75.00</td>
+          </tr>
+          <tr>
+            <td>CupCake</td>
+            <td>$3.00</td>
+          </tr>
+        </tbody>
+      </table>
+    
+    
+   <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">The cake bakery</h5>
+          <p class="grey-text text-lighten-4">Best cakes in town.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Social Media</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2014 Copyright Text
+      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>
