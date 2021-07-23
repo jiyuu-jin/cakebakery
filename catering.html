@@ -42,6 +42,13 @@
       #fullscreen{
         height: 100vh;
         padding: 0 20px;
+      }
+      
+     #contact-form{
+       display: block;
+       margin: 0 auto;
+       max-width: 400px;
+     }
     </style>
   </head>
   
@@ -57,14 +64,25 @@
         </ul>
       </div>
     </nav>
-    <h1 id="heading">Prices!</h1>
+    <h1 id="heading">Contact Us about Catering!</h1>
     
     <div id="fullscreen">
-      <form action="https://formspree.io/f/{form_id}" method="post">
-        <label for="email">Your Email</label>
-        <input name="Email" id="email" type="email">
-        <button type="submit">Submit</button>
-      </form>
+      <div id="contact-form">
+        <form action="https://formspree.io/f/{form_id}" method="post">
+          <label for="email">Email</label>
+          <input name="Email" id="email" type="email">
+
+          <label for="phone">Phone Number</label>
+          <input name="phone" id="phone" type="text">
+
+          <label for="email">Email</label>
+          <input name="Email" id="email" type="email">
+
+          <label for="message">Messager</label>
+          <textbox name="message" id="message" type="text">
+          <button type="submit">Submit</button>
+        </form>
+       </div>
     </div>
     
     
